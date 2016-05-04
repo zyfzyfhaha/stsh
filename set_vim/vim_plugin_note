@@ -1,0 +1,130 @@
+" My Plugins
+Plugin 'gmarik/vundle'
+Plugin manager
+
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Utils not sure used by what other plugin
+Include a util to map some command to a hotkey
+
+Plugin 'tomtom/tlib_vim'
+Utils not sure used by what other plugin
+
+Plugin 'scrooloose/nerdtree'
+File browser
+
+Plugin 'altercation/vim-colors-solarized'
+Color scheme collection
+
+Plugin 'spf13/vim-colors'
+Spf13 color schemes
+
+Plugin 'tpope/vim-surround'
+Plugin to add surround symbol/string to select string
+
+Plugin 'tpope/vim-repeat'
+Enhanced repeat command .
+For plugins such as surround, commentary, abolish
+
+Plugin 'rhysd/conflict-marker.vim'
+Jump to conflicts marked by <=== === ===>.
+
+Plugin 'jiangmiao/auto-pairs'
+Auto complete bracket, parens, quotes in pair.
+
+Plugin 'ctrlpvim/ctrlp.vim'
+File finder.
+
+Plugin 'tacahiroy/ctrlp-funky'
+In file function definition jump without ctags.
+
+Plugin 'terryma/vim-multiple-cursors'
+Multi cursors support like ctrl-d in sublime.
+
+Plugin 'vim-scripts/sessionman.vim'
+Session management.
+
+Plugin 'matchit.zip'
+Enhanced match by %, depended by conflict-marker.
+
+Plugin 'vim-airline/vim-airline'
+Enhanced status line with integrition to other plugins.
+
+Plugin 'vim-airline/vim-airline-themes'
+Themes of airline.
+
+Plugin 'powerline/fonts'
+Fonts for airline.
+
+Plugin 'bling/vim-bufferline'
+List buffers with # in airline.
+
+Plugin 'easymotion/vim-easymotion'
+Fast jump plugin, <Leader><Leader>w
+
+Plugin 'jistr/vim-nerdtree-tabs'
+NERDTree tab related commands.
+
+Plugin 'flazz/vim-colorschemes'
+Other color schemes.
+
+Plugin 'mbbill/undotree'
+Display the undo branch history for current buffer.
+
+Plugin 'nathanaelkane/vim-indent-guides'
+Dislay the indent levels in Vim.
+
+Plugin 'vim-scripts/restore_view.vim'
+To auto save/restore cursor position and folding.
+
+#Plugin 'mhinz/vim-signify'
+#To show the difference to version control system.
+
+Plugin 'tpope/vim-abolish.git'
+A spell correction plugin.
+
+Plugin 'osyo-manga/vim-over'
+Substitution preview.
+
+Plugin 'kana/vim-textobj-user'
+Plugin 'kana/vim-textobj-indent'
+Plugin 'gcmt/wildfire.vim'
+Select text object.
+
+Plugin 'scrooloose/syntastic'
+Syntax checker.
+
+Plugin 'tpope/vim-fugitive'
+Git wrapper in vim.
+
+Plugin 'mattn/webapi-vim'
+Web API for git, depends on curl and wget.
+
+Plugin 'mattn/gist-vim'
+To post current buffer to gist.
+
+Plugin 'scrooloose/nerdcommenter'
+Comment/uncomment lines/selections.
+
+Plugin 'tpope/vim-commentary'
+Comment/uncomment lines/selecionts.
+
+Plugin 'godlygeek/tabular'
+Tab based on =:, symbol.
+
+Plugin 'luochen1990/rainbow'
+Show different colors for different parentheses code.
+
+Plugin 'klen/python-mode'
+Run/debug python in vim.
+
+Plugin 'yssource/python.vim'
+Syntax highlighting for python. Depended on by python-mode.
+
+Plugin 'python_match.vim'
+Enhance % to support python key word like if/elif/else try/except/catch, for/continue/break.
+
+Plugin 'pythoncomplete'
+Python auto complete.
+
+Plugin 'airblade/vim-gitgutter'
+Show difference to git repo
