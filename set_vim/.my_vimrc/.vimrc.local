@@ -1,4 +1,4 @@
 set ignorecase
 
 "remove extra white space at the end of line
-autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufWritePre * if &ft!~?'markdown'|:%s/\s\+$//e|endif
