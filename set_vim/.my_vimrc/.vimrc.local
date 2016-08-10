@@ -5,3 +5,5 @@ autocmd BufWritePre * if &ft!~?'markdown'|:%s/\s\+$//e|endif
 
 " set color column to mimic a ruler
 set colorcolumn=140
+
+" set default clip board to system clipboard
