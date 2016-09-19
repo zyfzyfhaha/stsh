@@ -3,7 +3,6 @@
 
 UnBundle 'MarcWeber/vim-addon-mw-utils'
 UnBundle 'tomtom/tlib_vim'
-UnBundle 'scrooloose/nerdtree'
 UnBundle 'tpope/vim-surround'
 UnBundle 'tpope/vim-repeat'
 UnBundle 'rhysd/conflict-marker.vim'
