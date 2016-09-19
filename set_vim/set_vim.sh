@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm ~/.vimrc*
 cp -rf .my_vimrc ~/
 
 ln -s ~/.my_vimrc/.vimrc.local ~/.vimrc.local
