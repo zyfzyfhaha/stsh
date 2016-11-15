@@ -2,6 +2,7 @@ set ignorecase
 
 "remove extra white space at the end of line
 "autocmd BufWritePre * if &ft!~?'markdown'|:%s/\s\+$//e|endif
+command DT if &ft!~?'markdown'|:%s/\s\+$//e|endif
 
 " set color column to mimic a ruler
 set colorcolumn=140
